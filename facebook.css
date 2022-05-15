@@ -1,0 +1,297 @@
+* {
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  background: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  height: auto;
+}
+
+body {
+  font-size: 12px;
+  height: auto;
+}
+
+header,
+section {
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  /* text-align: center; */
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 55px;
+  color: #1877f2;
+}
+
+h2 {
+  text-align: center;
+  font-weight: bold;
+  color: #1877f2;
+  font-size: 55px;
+  margin-top: 10px;
+}
+
+h3 {
+  font-size: 33px;
+  font-weight: bold;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color: greenyellow;
+  font-weight: bold;
+  font-size: 25px;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+ol {
+  list-style-type: upper-alpha;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  border: none;
+  border-radius: 8px;
+  margin: 0 auto;
+  padding: 0 auto;
+  box-sizing: border-box;
+}
+
+td,
+th {
+  border: 1px solid #fff;
+  background-color: #fff;
+  text-align: left;
+  padding: 8px;
+}
+
+p.link {
+  margin: 0 auto;
+  font-family: monospace;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p.para {
+  margin-left: 290px;
+  margin-top: 75px;
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 32px;
+  width: 536px;
+  height: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+fieldset {
+  display: block;
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  box-sizing: border-box;
+  padding-block-start: 10px;
+  padding-block-end: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+hr {
+  margin: 1px;
+  font-weight: 1px;
+  font-size: 1px;
+}
+
+.container {
+  width: 536px;
+  height: 934px;
+  margin-top: -175px;
+  margin-right: 160px;
+  float: right;
+}
+
+.form {
+  float: right;
+  width: 100%;
+  margin-top: -12px;
+  margin-right: 10px;
+  padding: 16px;
+}
+
+.form-2 form {
+  margin-right: 0px;
+  padding: 0;
+}
+
+.form-2 input {
+  padding: 17px;
+  width: 332px;
+  margin-top: 10px;
+  margin-right: -10px;
+  margin-left: -10px;
+}
+
+.form input {
+  padding: 17px;
+  width: 332px;
+  margin-top: 10px;
+  margin-right: -10px;
+  margin-left: -10px;
+}
+
+.gender input {
+  margin-top: 0px;
+  margin-right: 5px;
+  margin-left: 0px;
+  width: auto;
+}
+
+.create-page {
+  text-align: center;
+  font-size: 13px;
+}
+
+.friend-list {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+#email,
+#password,
+#fname,
+#lname,
+#Date-of-birth,
+#phone {
+  font-size: 17px;
+  padding: 14px 16px;
+  width: 330px;
+  border-radius: 8px;
+  border: 1px solid #dddfe2;
+  background-color: #fff;
+}
+
+.gender {
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 0 auto;
+  font-size: 15px;
+}
+
+#submit input {
+  padding: none;
+}
+
+label {
+  background-color: #fff;
+}
+
+.add-friend {
+  margin-right: 20px;
+  padding-right: auto;
+  background-color: #1877f2;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  line-height: 48px;
+  padding: 0 16px;
+  width: 332px;
+}
+
+button.login,
+.login-btn {
+  text-align: center;
+  margin-top: 15px;
+  margin-right: 20px;
+  margin-left: auto;
+  padding-right: auto;
+  padding-left: 0px;
+  background-color: #1877f2;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  line-height: 48px;
+  padding: 0;
+  width: 100%;
+}
+
+button.create,
+.create-btn,
+#submit {
+  text-align: center;
+  padding-right: 2px;
+  margin-right: 2px;
+  background-color: #42b72a;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 17px;
+  line-height: 48px;
+  padding: 0 16px;
+}
+
+.textbox {
+  margin-top: 90px;
+  margin-left: 130px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 106px;
+  width: 301px;
+  border: none;
+}
+
+#button {
+  text-align: center;
+  background-color: #fff;
+}
+
+#forgot-password {
+  text-decoration: none;
+  color: blue;
+  padding: 0;
+  font-size: 14px;
+  padding: 14px 105px;
+  width: 330px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.footer {
+  display: block;
+  text-align: center;
+  margin-top: 350px;
+  margin-left: 550px;
+  padding: 0 auto;
+  font-size: 12px;
+}
+
+.footer-2 {
+  display: block;
+  text-align: center;
+  padding: 0 auto;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  font-size: 12px;
+}

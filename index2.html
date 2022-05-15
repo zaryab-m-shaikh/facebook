@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="facebook.css">
+  <link rel="shortcut icon" href="Sicons-Basic-Round-Social-Facebook.ico" type="image/x-icon">
+  <!-- <link rel="icon" href="./facebook.png"> -->
+  <title>Sign Up</title>
+  <style>
+    * {
+      font-family: arial, sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <header>
+      <h2>Sign Up</h2>
+    </header>
+    <br><br>
+    <form action="action_page.php" method="post" enctype="multipart/form-data" class="form-2">
+      <fieldset class="fieldset">
+        <!-- <legend class="legend">Employment Details</legend> -->
+        <!-- <h3>Personal Information</h3> -->
+        <!-- <label for="fname">First name * </label><br /><br> -->
+        <input type="text" id="fname" name="fname" value="" placeholder="First name" required autocomplete="on" />
+        <br /><br />
+        <!-- <label for="lname">Last name * </label><br /><br> -->
+        <input type="text" id="lname" name="lname" value="" placeholder="Last name" required autocomplete="on" />
+        <br />
+        <br />
+        <!-- <label for="password">Password * </label><br /><br> -->
+        <input type="password" id="password" name="password" value="" placeholder="New Password" required
+          autocomplete="off" />
+        <br />
+        <br />
+        <!-- <label for="date">Date Of Birth </label><br /><br> -->
+        <input type="date" id="Date-of-birth" name="Date of birth" /><br />
+        <br />
+        <!-- <label for="phone">Phone * </label><br /><br> -->
+        <input type="number" id="phone" name="phone" placeholder="Phone number" required autocomplete="on" /><br />
+        <br />
+        <!-- <label for="email_address">Email * </label><br /><br> -->
+        <input type="text" id="email" name="email_address" placeholder="Email" required autocomplete="on" /><br />
+        <br />
+        <br />
+        <!-- <h3>Gender</h3> -->
+        <div class="gender">
+          <label for="gender" class="gender">Gender </label><br /><br>
+          <input type="radio" class="gender" name="gender" value="Male" />Male<br />
+          <input type="radio" class="gender" name="gender" value="Female" />Female<br />
+        </div><br />
+        <br />
+        <input id="submit" type="submit" value="Create Account" />
+        <br /><br />
+  </div>
+  <footer class="footer-2">
+    <p>
+      <div class="link"><a href="gmail.com">Gmail </a><a href="github.com"> Github </a><a href="instagram.com"> Instagram
+        </a><a href="Twitter.com"> Twitter </a><a href="Youtube.com"> YouTube </a></div>
+      </p>
+      <br>
+      <div>
+        <span>Meta ©<strong> 2022</strong></span>
+      </div>
+    </footer>
+</body>
+
+</html>
